@@ -1,25 +1,17 @@
-Web scraper 
-selenium
-ASIN-Amazon Standard Identification Number/ product id 
+Web scraper Using selenium
+ 
 virtual envirnment
-
-it will go to the amazon page 
-
-SELF represents the instance of class. This handy keyword allows you to access variables, attributes, 
-and methods of a defined class in Python. The self parameter doesn't have to be named “self,”
- as you can call it by any other name.
-
-
 
 Working of the Web scraper:-
 1. Run the browser
 2. Go to the Specific website Amazon/Flipkart
 3. search for the item given and get or fetch the url of each product.
+ASIN-Amazon Standard Identification Number/ product id
 4.make the list of urls and run the loop for the getting each detail of the product- title name , product id , ASIN,
 5.Go through the multiple pages as we have product urls list
 6.Store it in memory 
 7. Create report based on your data in json file 
 
-Simple tracker 
+Tracker 
 class 1 - return dictory of item connect or provide the api to it  
 class 2 -  take the argument of product and create a report in the form of json 
