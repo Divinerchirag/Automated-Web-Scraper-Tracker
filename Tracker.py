@@ -19,7 +19,7 @@ import json
 from datetime import datetime
 
 
-class GenerateReport:
+class GetReport:
     def __init__(self, file_name, filters, base_link, currency, data):
         self.data = data
         self.file_name = file_name
@@ -54,7 +54,7 @@ class GenerateReport:
             return None
 
 
-class AmazonAPI:
+class API:
     def __init__(self, search_term, filters, base_url, currency):
         self.base_url = base_url
         self.search_term = search_term
@@ -190,6 +190,6 @@ class AmazonAPI:
 
 
 if __name__ == '__main__':
-    am = AmazonAPI(NAME, FILTERS, BASE_URL, CURRENCY)
-    data = am.run()
-    GenerateReport(NAME, FILTERS, BASE_URL, CURRENCY, data)
+    connectIt = API(NAME, FILTERS, BASE_URL, CURRENCY)
+    data = connectIt.run()
+    GetReport(NAME, FILTERS, BASE_URL, CURRENCY, data)
