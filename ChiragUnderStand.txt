@@ -1,17 +1,17 @@
 Web scraper Using selenium
  
-virtual envirnment
 
 Working of the Web scraper:-
 1. Run the browser
 2. Go to the Specific website Amazon/Flipkart
-3. search for the item given and get or fetch the url of each product.
+3. Search for the item given and get or fetch the url of each product.
 ASIN-Amazon Standard Identification Number/ product id
-4.make the list of urls and run the loop for the getting each detail of the product- title name , product id , ASIN,
+4.Make the list of urls and run the loop for the getting each detail of the product- title name , product id , ASIN,
 5.Go through the multiple pages as we have product urls list
 6.Store it in memory 
 7. Create report based on your data in json file 
 
 Tracker 
-class 1 - return dictory of item connect or provide the api to it  
-class 2 -  take the argument of product and create a report in the form of json 
+class 1 API - Return dictory of item connect or provide the api to it  
+class 2 GetReport  -  Take the argument of product and create a report in the form of json 
+
